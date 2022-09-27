@@ -1,0 +1,167 @@
+/* Start all css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.fixed-width {
+    width: 1000px;
+    margin: auto;
+}
+
+/* Start header top css */
+.header {
+    background-color: #2E219A;
+    text-align: center;
+}
+.header img {
+    width: 120px;
+    margin: 15px 0px;
+}
+/* End header top css */
+
+/* Start header bottom css */
+.header-bottom {
+    background-color: red;
+    padding: 15px 0px;
+    text-align: center;
+}
+ul li {
+        display: inline-block;
+        padding: 13px 15px;
+        border-right: 2px inset white;
+        opacity: 0.7;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+.fixed-width ul li:last-child {
+    border-right: none;
+}
+/* End header bottom css */
+
+/* Start benner css */
+.benner {
+    background: url('buble.jpg') no-repeat top center ;
+    background-size: cover;
+    padding: 200px 0px;
+}
+.content {
+    text-align: center;
+}
+.content h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.content p {
+    color: white;
+    opacity: 0.7;
+    font-size: 13px;
+    font-weight: 100;
+}
+.content a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 35px;
+    background-color: green;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+/* End benner css */
+
+/* Start theme css */
+.theme {
+    padding: 206px 0px;
+    background: green url('border.jpg') no-repeat top center;
+    background-size: cover;
+}
+.theme h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background-color: green;
+    padding: 7px 0px;
+    margin-bottom: 20px;
+}
+.theme p {
+    width: 1000px;
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
+    line-height: 28px;
+}
+.theme div {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.theme div a {
+    color: white;
+    background-color: black;
+    padding: 8px 35px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 100;
+}
+/* End theme css */
+
+/* Start teem css */
+.teem {
+    background-color: #4AB75C;
+    padding: 1px 0px;
+}
+h1 {
+    text-align: center;
+    padding: 72px 0px;
+    font-size: 49px;
+    font-weight: 100;
+}
+.img-box img {
+    width: 35%;
+}
+.img-box {
+    display: inline-block;
+    width: 30%;
+}
+.teem-info {
+    display: inline-block;
+    width: 60%;
+}
+.all-elements2 {
+    margin: 10% 0%;
+}
+.teem-info p {
+    font-size: 14px;
+}
+
+/* End teem css */
+
+/* Start footer css */
+.foot {
+    background-color: #2C1A8E;
+    padding: 20px 0px;
+    text-align: center;
+}
+.social-media li {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 12px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    font-weight: 100;
+    opacity: 0.8;
+    
+    
+}
+.social-media li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* End footer css */
